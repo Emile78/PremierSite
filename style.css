@@ -16,7 +16,13 @@ border-bottom: 5px solid black;
 nav h1{
 color: black;
 font-family: 'Playfair Display';
-font-size: 50px;
+font-size: 40px;
+
+}
+
+nav .onglets{
+margin-top: 3px;
+margin-left: 500px;
 
 }
 
@@ -27,3 +33,11 @@ margin-right: 10px;
 border-bottom: 1px solid black;
 padding-bottom: 3px;
 }
+
+@media screen and (max-width:680px){
+    nav .onglets{
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+}
+
