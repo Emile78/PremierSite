@@ -1,122 +1,133 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap');
-body{
-margin: 0%;
-padding: 0%;
-font-family: 'Montserrat', sans-serif ;
+body {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Montserrat', sans-serif;
 }
 
-body{
-background-color: white;
-
-}
-nav{
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-align-items: center;
-border-bottom: 7px solid black;
+body {
+    background-color: white;
 }
 
-nav h1{
-color: black;
-font-family: 'Playfair Display';
-font-size: 40px;
-padding: 45p;
-
-}
-
-nav .onglets{
-margin-top: 3px;
-margin-left: 500px;
-}
-
-header{
-
-
+nav {
     display: flex;
-    flex-direction:column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 7px solid black;
+}
+
+nav h1 {
+    color: black;
+    font-family: 'Playfair Display';
+    font-size: 40px;
+    padding: 45p;
+}
+
+nav .onglets {
+    margin-top: 3px;
+    margin-left: 500px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
     align-items: center;
     background-image: url(https://static.posters.cz/image/1300/posters-muraux/beautiful-flowers-pastel-colours-i60057.jpg);
-background-repeat: no-repeat;
-text-align: center;
-background-position: center;
-padding: 40px;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center;
+    padding: 40px;
 }
 
-header h1{
+header h1 {
     font-family: 'Playfair Display';
-font-size: 50px;
-
+    font-size: 50px;
 }
 
-header h4{
-font-family:' Montserrat';
-margin-top: 10px;
-font-size: 30px;
-text-align: center;
-border-bottom: solid black 1px;
+header h4 {
+    font-family: ' Montserrat';
+    margin-top: 10px;
+    font-size: 30px;
+    text-align: center;
+    border-bottom: solid black 1px;
 }
 
-header button{
-padding: 5px 15px;
-font-family: 'Playfair Display';
-font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-color: black;
-border: none;
-font-size: 20px;
-background-color: transparent;
-cursor: pointer;
-
+header button {
+    padding: 5px 15px;
+    font-family: 'Playfair Display';
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: black;
+    border: none;
+    font-size: 20px;
+    background-color: transparent;
+    cursor: pointer;
 }
 
-
-
-nav .onglets a{
-text-decoration: none;
-color: black;
-margin-left: 10px;
-font-size: 20px;
-
+nav .onglets a {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+    font-size: 20px;
 }
 
-@media screen and (max-width:680px){
-    nav .onglets{
+@media screen and (max-width:680px) {
+    nav .onglets {
         margin-left: 0px;
         margin-bottom: 20px;
     }
 }
 
-.main{
-margin-top: 40px;
-display: flex;
-flex-direction: column;
-align-items: center;
-
+.main {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
-img{
+
+img {
     max-width: 100%;
- max-height: 100%
+    max-height: 100%
 }
 
-.main .content .card .right{
-height: 300px;
-width: 400px;
-margin-top: 5px;
-}
-.main .content .card .left{
-flex: 0 0 30%;
-padding: 20px;
-background-color:sandybrown;
-color: black;
+.main .content .card .right {
+    height: 300px;
+    width: 400px;
+    margin-top: 5px;
 }
 
+.main .content .card .left {
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: sandybrown;
+    color: black;
+}
 
-.main .content .card{
+.main .content .card {
     flex: 0 0 70%;
-display: flex;
-flex-wrap: wrap;
-justify-content:center;
-margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
 }
 
+footer {
+    margin-top: 40px;
+    border-top: 5px solid black;
+    background-color: sandybrown;
+    color: black;
+    padding: 30px 100px;
+}
+
+footer h1 {
+    font-family: 'Playfair Display';
+    border-bottom: black solid 3px;
+    width: 16%;
+}
+
+footer .Services {
+    margin-top: -10px;
+    display: flex;
+    /* flex-wrap: wrap; */
+}
