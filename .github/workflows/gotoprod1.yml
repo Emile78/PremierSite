@@ -35,5 +35,5 @@ jobs:
           echo Add other actions to build,
           echo test, and deploy your project.
           wc -l ./*.html
-          wc -l ./style.css
+          wc -l ./*.css
 
