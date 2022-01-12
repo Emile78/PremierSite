@@ -1,0 +1,29 @@
+#nav{
+
+    display: flex;
+    margin-left: 20px;
+    justify-content: center;
+    padding: 25px;
+    
+}
+
+#Templates{
+
+    margin-left: 10px;
+}
+
+#Ressources{
+
+    margin-left: 10px;
+}
+
+body{
+
+    background-color: coral;
+}
+
+.Header{
+font-size: 25px;
+flex-wrap:wrap;
+
+}
