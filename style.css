@@ -61,10 +61,10 @@ header h4 {
     border-bottom: solid black 1px;
 }
 
-header button {
+button {
     padding: 5px 15px;
-    font-family: 'Playfair Display';
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    /* font-family: 'Playfair Display';
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
     color: black;
     border: none;
     font-size: 20px;

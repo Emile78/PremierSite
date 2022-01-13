@@ -1,38 +1,33 @@
-#nav{
-
+#nav {
     display: flex;
     margin-left: 20px;
     justify-content: center;
     padding: 25px;
-    
 }
 
-#Templates{
-
+#Templates {
     margin-left: 10px;
 }
 
-#Ressources{
-
+#Ressources {
     margin-left: 10px;
 }
 
-body{
-
+body {
     background-color: coral;
 }
 
-.Header{
-
-flex-wrap:wrap;
-font-size: 25px;
-background-image: url(https://png.pngtree.com/background/20210709/original/pngtree-coral-orange-memphis-creative-geometric-wind-background-picture-image_927506.jpg);
-padding: 300px;
-margin-top: 50px;
-border-top: 5px solid black;
+.Header {
+    flex-wrap: wrap;
+    font-size: 25px;
+    background-image: url(https://png.pngtree.com/background/20210709/original/pngtree-coral-orange-memphis-creative-geometric-wind-background-picture-image_927506.jpg);
+    padding: 300px;
+    margin-top: 50px;
+    border-top: 5px solid black;
+    color: coral;
 }
 
-.Cards{
+.Cards {
     margin-top: 40px;
     border-top: 5px solid black;
     background-color: coral;
@@ -41,45 +36,45 @@ border-top: 5px solid black;
     background-image: url(https://freshidees.com/wp-content/uploads/2019/01/palette-association-couleur-corail.jpg);
     background-size: 500px 600px;
     background-repeat: no-repeat;
-    
-    
-    
-
 }
 
-.Cards .Card p{
+button {
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    padding: 5px 15px;
+    font-size: 20px;
+}
+
+.Cards .Card p {
     margin-top: -10px;
     display: flex;
     margin-left: 600px;
-
 }
 
-.Cards .Card h1{
+.Cards .Card h1 {
     margin-top: -10px;
     display: flex;
     margin-left: 600px;
-
 }
 
 footer {
-
-    margin-top: 40px ;
-    border-top: 5px  solid black;
+    margin-top: 40px;
+    border-top: 5px solid black;
     background-color: coral;
     color: black;
     padding: 30px 100px;
     margin-left: 300px;
+    /* text-decoration: black underline; */
 }
 
 footer h1 {
     font-family: 'Playfair Display';
     border-bottom: black solid 3px;
     width: 16%;
-    
 }
 
 footer .Services {
-    
     margin-top: -10px;
     display: flex;
     /* flex-wrap: wrap; */
@@ -93,4 +88,3 @@ footer .Services {
         width: 100%;
     }
 }
-
