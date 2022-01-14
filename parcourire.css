@@ -42,3 +42,31 @@ button {
     background-color: transparent;
     cursor: pointer;
 }
+
+li{
+
+    font-size: 25px;
+    display: flex;
+    margin-top: 200px;
+    justify-content: center;
+
+}
+.Liste p{
+    font-size: 20px;
+
+}
+
+img{
+    margin-left: 300px;
+}
+
+#description{
+    font-size: 20px;
+    justify-content: center;
+    column-count: 2;
+    column-width: 10px;
+    text-align: justify;
+    
+}
+
+
