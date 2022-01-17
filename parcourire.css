@@ -6,6 +6,17 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+.Titre{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.Titre p{
+    font-size: 25px;
+}
+
 nav {
     display: flex;
     flex-wrap: wrap;
@@ -43,30 +54,49 @@ button {
     cursor: pointer;
 }
 
-li{
 
-    font-size: 25px;
+.main{
+    margin: 20px;
+    margin-top: 80px;
     display: flex;
-    margin-top: 200px;
+    flex-direction: column;
     justify-content: center;
-
-}
-.Liste p{
-    font-size: 20px;
-
+    align-items: center;
 }
 
-img{
-    margin-left: 300px;
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
-#description{
-    font-size: 20px;
-    justify-content: center;
-    column-count: 2;
-    column-width: 10px;
-    text-align: justify;
+.cards .card{
+    margin-right: 20px;
+    cursor: pointer;
+    display: flex;
     
 }
+
+
+.cards .card img{
+    width: 300px;
+    display: flex;
+
+
+}
+
+.cards .card .card-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.cards .card .card-body p{
+    margin-top: -10px;
+    display: flex;
+}
+
+
+
+
 
 
