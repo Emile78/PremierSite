@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fleuriste</title>
+    <link rel="stylesheet" href="info.css">
+</head>
+
+<body>
+
+    <nav>
+        <div id="titre"> 花 <span id="titre2">Fleuriste</span> 花</div>
+        <div class="onglets">
+            <!-- <a href="parcourire.html">Parcourire</a> -->
+            <button onclick="window.location.href = 'parcourire.html';">Parcourire</button>
+            <a href="concevoir2.html">Home</a>
+
+        </div>
+    </nav>
+
+    <header>
+
+        <h1> Fleuriste </h1>
+        <h4>Toutes les fleures dont vous aurez besoin</h4>
+        <!-- <button onclick="window.location.href = 'parcourire.html';">Parcourire</button> -->
+
+    </header>
+
+    <div class="info">
+        <h1>Passer commande</h1>
+        <p>Pour passer commande il faut There are many variations of passages of Lorem Ipsum available, but the majority
+            have suffered alteration in some form, by injected humour, or randomised words which don't look even
+            slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't
+            anything embarrassing hidden in the middle of text. All the Lorem Ipsum generators on the Internet tend to
+            repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a
+            dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem
+            Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected
+            humour, or non-characteristic words etc.</p>
+
+
+    </div>
+    <style>
+        .slider {
+            width: 800px;
+            height: 500px;
+            overflow: hidden;
+            margin: 50px auto;
+        }
+
+        .slides {
+            width: calc(1000px * 3);
+            animation: glisse 10s infinite;
+        }
+
+        .slide {
+            float: left;
+        }
+
+        @keyframes glisse {
+            0% {
+                transform: translateX(0);
+            }
+
+            10% {
+                transform: translateX(0);
+            }
+
+            33% {
+                transform: translateX(-500px);
+            }
+
+            43% {
+                transform: translateX(-500px);
+            }
+
+            66% {
+                transform: translateX(-1000px);
+            }
+
+            76% {
+                transform: translateX(-1000px);
+            }
+
+            100% {
+                transform: translateX(0);
+            }
+        }
+    </style>
+
+    <body>
+        <div class="slider">
+            <div class="slides">
+                <div class="slide"><img
+                        src="https://image.dhgate.com/0x0s/f2-albu-g8-M01-A2-CF-rBVaVFw9mAuAS-JAAAOw-Pv_yuA657.jpg/500-pi-ces-fleurs-portent-la-mousse-de-fleurs.jpg"
+                        alt="" /></div>
+                <div class="slide"><img
+                        src="https://static.actu.fr/uploads/2019/04/Fleur-de-frangipanier_Robynmac-stock.adobe_.com-800.jpg"
+                        alt="" /></div>
+                <div class="slide"><img
+                        src="https://data.fou-de-puzzle.com/.21/le-jour-des-fleurs-1000-pieces--puzzle.5532-1.fs.jpg"
+                        alt="" /></div>
+            </div>
+        </div>
+    </body>
+
+</html>
+
+
+
+
+</body>

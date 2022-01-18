@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap');
 body {
-    /* margin: 0%;
-    padding: 0%; */
+    margin: 0%;
+    padding: 0%;
     font-family: 'Montserrat', sans-serif;
 }
 
+body {
+    background-color: white;
+}
 
 nav {
     display: flex;
@@ -29,12 +32,10 @@ nav {
     padding: 45px;
 }
 
-.nav .onglets {
+nav .onglets {
     margin-top: 3px;
     margin-left: 500px;
-    position: fixed;
 }
-
 
 header {
     display: flex;
@@ -45,7 +46,6 @@ header {
     text-align: center;
     background-position: center;
     padding: 40px;
-    
 }
 
 header h1 {
@@ -92,60 +92,54 @@ nav .onglets a {
     }
 }
 
-.main {
-    margin-top: 40px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-image: url(https://images.ctfassets.net/hrltx12pl8hq/8MpEm5OxWXiNqLvWzCYpW/24f02cfe391aa8f25845de858982d449/shutterstock_749707636__1__copy.jpg?fit=fill&w=840&h=350);
+.info p{
+    font-size: 25px;
 }
 
-img {
-    max-width: 100%;
-    max-height: 100%
-}
+<style>
+	.slider {
+		width: 500px;
+		height: 300px;
+		overflow: hidden;
+		margin: 150px auto;
+	}
+	.slides {
+		width: calc(500px * 3);
+		animation: glisse 10s infinite;
+	}
+	.slide {
+		float: left;
+	}
 
-#right {
-    flex: 0 0 40%;
-    background-image: url('https://lejournaldesaxe.com/wp-content/uploads/2021/03/mise-en-avant-fleurs-feutrine.jpg');
-}
+	@keyframes glisse {
+		0% {
+			transform: translateX(0);
+		}
+		10% {
+			transform: translateX(0);
+		}
+		33% {
+			transform: translateX(-500px);
+		}
+		43% {
+			transform: translateX(-500px);
+		}
+		66% {
+			transform: translateX(-1000px);
+		}
+		76% {
+			transform: translateX(-1000px);
+		}
+		100% {
+			transform: translateX(0);
+		}
+	}
 
-#droite {
-    flex: 0 0 40%;
-    background-image: url('https://www.selimniederhoffer.com/blog/wp-content/uploads/2018/03/fleurs-pour-s-excuser-1300x815.jpeg');
-}
-
-#left {
-    flex: 0 0 30%;
-    padding: 20px;
-    background-color: sandybrown;
-    color: black;
-}
-
-.main .content .card {
-    flex: 0 0 70%;
-    display: inline-flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 20px;
-}
-
-footer {
-    margin-top: 40px;
-    border-top: 5px solid black;
-    background-color: sandybrown;
-    color: black;
-    padding: 30px 100px;
-}
-
-footer h1 {
-    font-family: 'Playfair Display';
-    border-bottom: black solid 3px;
-    width: 16%;
-}
-
-footer .Services {
-    margin-top: -10px;
-    display: flex;
-    /* flex-wrap: wrap; */
-}
+</style>
+<div class="slider">
+		<div class="slides">
+			<div class="slide"><img src="https://emova-monceaufleurs-fr-storage.omn.proximis.com/Imagestorage/images/2560/1600/5f6dbfaf6c522_visuel2_1_.jpg" alt="" /></div>
+			<div class="slide"><img src="https://fleurdelangle.fr/wp-content/uploads/2020/11/valbis.jpg" alt="" /></div>
+			<div class="slide"><img src="https://blog.interflora.fr/wp-content/uploads/2014/05/Fleurs-tendresse.jpg" alt="" /></div>
+		</div>
+	</div>
