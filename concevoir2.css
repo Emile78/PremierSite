@@ -6,7 +6,6 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-
 nav {
     display: flex;
     flex-wrap: wrap;
@@ -35,7 +34,6 @@ nav {
     position: fixed;
 }
 
-
 header {
     display: flex;
     flex-direction: column;
@@ -45,7 +43,6 @@ header {
     text-align: center;
     background-position: center;
     padding: 40px;
-    
 }
 
 header h1 {

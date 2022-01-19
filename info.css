@@ -46,6 +46,7 @@ header {
     text-align: center;
     background-position: center;
     padding: 40px;
+    width: auto
 }
 
 header h1 {
@@ -92,11 +93,12 @@ nav .onglets a {
     }
 }
 
-.info p{
+.info p {
     font-size: 25px;
 }
 
-<style>
+
+/* <style>
 	.slider {
 		width: 500px;
 		height: 300px;
@@ -142,4 +144,4 @@ nav .onglets a {
 			<div class="slide"><img src="https://fleurdelangle.fr/wp-content/uploads/2020/11/valbis.jpg" alt="" /></div>
 			<div class="slide"><img src="https://blog.interflora.fr/wp-content/uploads/2014/05/Fleurs-tendresse.jpg" alt="" /></div>
 		</div>
-	</div>
+	</div> */
