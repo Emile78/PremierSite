@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap');
 body {
-    /* margin: 0%;
-    padding: 0%; */
+    margin: 0%;
+    padding: 0%;
     font-family: 'Montserrat', sans-serif;
+    background-image: url(https://images.ctfassets.net/hrltx12pl8hq/6lceP0TOvBLkGYpu5YQwiz/30ac27a60e4083d1a5c59b23c058309b/3.jpg?fit=fill&w=480&h=270);
 }
 
 nav {
@@ -11,7 +12,7 @@ nav {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    border-bottom: 7px solid black;
+    background-color: pink;
 }
 
 #titre {
@@ -19,6 +20,8 @@ nav {
     font-family: 'Playfair Display';
     font-size: 40px;
     padding: 45px;
+    justify-content: center;
+    align-items: center;
 }
 
 #titre2 {
@@ -26,12 +29,15 @@ nav {
     font-family: 'Playfair Display';
     font-size: 40px;
     padding: 45px;
+    justify-content: center;
+    align-items: center;
 }
 
-.nav .onglets {
+nav .onglets {
     margin-top: 3px;
     margin-left: 500px;
-    position: fixed;
+    justify-content: center;
+    align-items: center;
 }
 
 header {
@@ -39,15 +45,19 @@ header {
     flex-direction: column;
     align-items: center;
     background-image: url(https://static.posters.cz/image/1300/posters-muraux/beautiful-flowers-pastel-colours-i60057.jpg);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     text-align: center;
     background-position: center;
     padding: 40px;
+    min-width: 100%;
+    width: 100%;
 }
 
 header h1 {
     font-family: 'Playfair Display';
     font-size: 50px;
+    justify-content: center;
+    align-items: center;
 }
 
 header h4 {
@@ -55,7 +65,8 @@ header h4 {
     margin-top: 10px;
     font-size: 30px;
     text-align: center;
-    border-bottom: solid black 1px;
+    justify-content: center;
+    align-items: center;
 }
 
 button {
@@ -67,10 +78,14 @@ button {
     font-size: 20px;
     background-color: transparent;
     cursor: pointer;
+    justify-content: center;
+    align-items: center;
 }
 
 button:hover {
     color: palevioletred;
+    justify-content: center;
+    align-items: center;
 }
 
 nav .onglets a {
@@ -78,6 +93,8 @@ nav .onglets a {
     color: black;
     margin-left: 10px;
     font-size: 20px;
+    justify-content: center;
+    align-items: center;
 }
 
 @media screen and (max-width:680px) {
@@ -94,7 +111,8 @@ nav .onglets a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-image: url(https://images.ctfassets.net/hrltx12pl8hq/8MpEm5OxWXiNqLvWzCYpW/24f02cfe391aa8f25845de858982d449/shutterstock_749707636__1__copy.jpg?fit=fill&w=840&h=350);
+    justify-content: center;
+    align-items: center;
 }
 
 img {
@@ -115,7 +133,7 @@ img {
 #left {
     flex: 0 0 30%;
     padding: 20px;
-    background-color: sandybrown;
+    background-color: pink;
     color: black;
 }
 
@@ -129,15 +147,13 @@ img {
 
 footer {
     margin-top: 40px;
-    border-top: 5px solid black;
-    background-color: sandybrown;
+    background-color: pink;
     color: black;
     padding: 30px 100px;
 }
 
 footer h1 {
     font-family: 'Playfair Display';
-    border-bottom: black solid 3px;
     width: 16%;
 }
 

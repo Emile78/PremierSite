@@ -4,6 +4,7 @@ body {
     margin: 0%;
     padding: 0%;
     font-family: 'Montserrat', sans-serif;
+    background-image: url(https://images.ctfassets.net/hrltx12pl8hq/6lceP0TOvBLkGYpu5YQwiz/30ac27a60e4083d1a5c59b23c058309b/3.jpg?fit=fill&w=480&h=270);
 }
 
 .Titre{
@@ -22,8 +23,8 @@ nav {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    border-bottom: 7px solid black;
     color: black;
+    background-color: pink;
 }
 
 #titre {
@@ -69,17 +70,22 @@ button {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
-
+    justify-content: center;
+    align-items: center;
 }
 .card{
 
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .card-image{
     width: 50px;    
     width: 50vh;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -87,6 +93,8 @@ button {
     margin-right: 20px;
     cursor: pointer;
     display: flex;
+    justify-content: center;
+    align-items: center;
     
 }
 
@@ -94,6 +102,8 @@ button {
 .cards .card img{
     width: 300px;
     display: flex;
+    justify-content: center;
+    align-items: center;
 
 
 }
@@ -107,6 +117,24 @@ button {
     margin-top: -10px;
     display: flex;
     
+}
+
+footer {
+    margin-top: 40px;
+    background-color: pink;
+    color: black;
+    padding: 30px 100px;
+}
+
+footer h1 {
+    font-family: 'Playfair Display';
+    width: 16%;
+}
+
+footer .Services {
+    margin-top: -10px;
+    display: flex;
+    /* flex-wrap: wrap; */
 }
 
 
