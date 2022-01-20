@@ -16,6 +16,7 @@ nav {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    background-color: pink;
 }
 
 #titre {
