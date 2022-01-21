@@ -50,7 +50,8 @@ header {
     background-position: center;
     padding: 40px;
     min-width: 100%;
-    width: 100%;
+    width: 1000px;
+    height: 500px;
 }
 
 header h1 {
@@ -136,6 +137,12 @@ img {
     background-color: pink;
     color: black;
 }
+#lefts {
+    flex: 0 0 30%;
+    padding: 20px;
+    background-color: pink;
+    color: black;
+}
 
 .main .content .card {
     flex: 0 0 70%;
@@ -161,4 +168,20 @@ footer .Services {
     margin-top: -10px;
     display: flex;
     /* flex-wrap: wrap; */
+}
+.imagefooter ul{
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+.imagefooter ul li{
+    display: inline-block;
+    padding: 30px;
+}
+
+.imagefooter ul li img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
 }

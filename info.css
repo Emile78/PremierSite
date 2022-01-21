@@ -43,11 +43,13 @@ header {
     flex-direction: column;
     align-items: center;
     background-image: url(https://static.posters.cz/image/1300/posters-muraux/beautiful-flowers-pastel-colours-i60057.jpg);
-    background-repeat: no-repeat;
+    /* background-repeat: no-repeat; */
     text-align: center;
     background-position: center;
     padding: 40px;
-    width: auto
+    min-width: 100%;
+    width: 1000px;
+    height: 500px;
 }
 
 header h1 {
@@ -113,6 +115,22 @@ footer .Services {
     margin-top: -10px;
     display: flex;
     /* flex-wrap: wrap; */
+}
+.imagefooter ul{
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+.imagefooter ul li{
+    display: inline-block;
+    padding: 30px;
+}
+
+.imagefooter ul li img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
 }
 
 

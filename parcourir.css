@@ -95,7 +95,6 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 
@@ -104,8 +103,6 @@ button {
     display: flex;
     justify-content: center;
     align-items: center;
-
-
 }
 
 .cards .card .card-header{
@@ -135,6 +132,22 @@ footer .Services {
     margin-top: -10px;
     display: flex;
     /* flex-wrap: wrap; */
+}
+.imagefooter ul{
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+.imagefooter ul li{
+    display: inline-block;
+    padding: 30px;
+}
+
+.imagefooter ul li img{
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
 }
 
 
